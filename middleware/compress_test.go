@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-chi/chi/v5"
+	"github.com/gozilla-dev/chi-router"
 )
 
 func TestCompressor(t *testing.T) {

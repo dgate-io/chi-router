@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
+	"github.com/gozilla-dev/chi-router"
 )
 
 // StripSlashes is a middleware that will match request paths with a trailing

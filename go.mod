@@ -1,3 +1,3 @@
-module github.com/go-chi/chi/v5
+module github.com/gozilla-dev/chi-router
 
 go 1.14

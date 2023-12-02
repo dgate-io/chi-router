@@ -3,7 +3,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/go-chi/chi/v5/_examples/versions/data"
+	"github.com/gozilla-dev/chi-router/_examples/versions/data"
 )
 
 // Article presented in API version 1.

@@ -345,6 +345,13 @@ func (n *node) setEndpoint(method methodTyp, handler http.Handler, pattern strin
 		n.endpoints = make(endpoints)
 	}
 
+	if n.endpoints.Value(method) != nil {
+		ep := n.endpoints.Value(method)
+		if ep.handler != nil || ep.pattern != "" {
+			panic(fmt.Sprintf("chi: multiple handlers for method '%s' at '%s'", methodTypString(method), pattern))
+		}
+	}
+
 	paramKeys := patParamKeys(pattern)
 
 	if method&mSTUB == mSTUB {

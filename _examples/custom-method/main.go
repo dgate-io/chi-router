@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	"github.com/gozilla-dev/chi-router"
+	"github.com/gozilla-dev/chi-router/middleware"
 )
 
 func init() {

@@ -44,10 +44,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/docgen"
 	"github.com/go-chi/render"
+	"github.com/gozilla-dev/chi-router"
+	"github.com/gozilla-dev/chi-router/middleware"
 )
 
 var routes = flag.Bool("routes", false, "Generate router documentation")
@@ -102,7 +102,7 @@ func main() {
 	if *routes {
 		// fmt.Println(docgen.JSONRoutesDoc(r))
 		fmt.Println(docgen.MarkdownRoutesDoc(r, docgen.MarkdownOpts{
-			ProjectPath: "github.com/go-chi/chi/v5",
+			ProjectPath: "github.com/gozilla-dev/chi-router",
 			Intro:       "Welcome to the chi/_examples/rest generated docs.",
 		}))
 		return
