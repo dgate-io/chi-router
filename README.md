@@ -20,7 +20,7 @@ and [docgen](https://github.com/go-chi/docgen). We hope you enjoy it too!
 
 ## Install
 
-`go get -u github.com/gozilla-dev/chi-router`
+`go get -u github.com/dgate-io/chi-router`
 
 
 ## Features
@@ -49,8 +49,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/gozilla-dev/chi-router"
-	"github.com/gozilla-dev/chi-router/middleware"
+	"github.com/dgate-io/chi-router"
+	"github.com/dgate-io/chi-router/middleware"
 )
 
 func main() {
@@ -76,8 +76,8 @@ above, they will show you all the features of chi and serve as a good form of do
 import (
   //...
   "context"
-  "github.com/gozilla-dev/chi-router"
-  "github.com/gozilla-dev/chi-router/middleware"
+  "github.com/dgate-io/chi-router"
+  "github.com/dgate-io/chi-router/middleware"
 )
 
 func main() {
@@ -494,7 +494,7 @@ Copyright (c) 2015-present [Peter Kieltyka](https://github.com/pkieltyka)
 
 Licensed under [MIT License](./LICENSE)
 
-[GoDoc]: https://pkg.go.dev/github.com/gozilla-dev/chi-router
+[GoDoc]: https://pkg.go.dev/github.com/dgate-io/chi-router
 [GoDoc Widget]: https://godoc.org/github.com/go-chi/chi?status.svg
 [Travis]: https://travis-ci.org/go-chi/chi
 [Travis Widget]: https://travis-ci.org/go-chi/chi.svg?branch=master

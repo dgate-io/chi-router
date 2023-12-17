@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 var testContent = []byte("Hello world!")

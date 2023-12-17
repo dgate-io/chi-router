@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 // CleanPath middleware will clean out double slash mistakes from a user's request path.

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 type todosResource struct{}

@@ -1,3 +1,3 @@
-module github.com/gozilla-dev/chi-router
+module github.com/dgate-io/chi-router
 
 go 1.14

@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 // SupressNotFound will quickly respond with a 404 if the route is not found

@@ -46,8 +46,8 @@ import (
 
 	"github.com/go-chi/docgen"
 	"github.com/go-chi/render"
-	"github.com/gozilla-dev/chi-router"
-	"github.com/gozilla-dev/chi-router/middleware"
+	"github.com/dgate-io/chi-router"
+	"github.com/dgate-io/chi-router/middleware"
 )
 
 var routes = flag.Bool("routes", false, "Generate router documentation")
@@ -102,7 +102,7 @@ func main() {
 	if *routes {
 		// fmt.Println(docgen.JSONRoutesDoc(r))
 		fmt.Println(docgen.MarkdownRoutesDoc(r, docgen.MarkdownOpts{
-			ProjectPath: "github.com/gozilla-dev/chi-router",
+			ProjectPath: "github.com/dgate-io/chi-router",
 			Intro:       "Welcome to the chi/_examples/rest generated docs.",
 		}))
 		return

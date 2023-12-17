@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 func TestStripSlashes(t *testing.T) {

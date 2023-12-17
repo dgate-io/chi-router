@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gozilla-dev/chi-router"
-	"github.com/gozilla-dev/chi-router/middleware"
+	"github.com/dgate-io/chi-router"
+	"github.com/dgate-io/chi-router/middleware"
 )
 
 func main() {

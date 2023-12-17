@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 func TestSunset(t *testing.T) {

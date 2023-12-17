@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/go-chi/render"
-	"github.com/gozilla-dev/chi-router"
-	"github.com/gozilla-dev/chi-router/_examples/versions/data"
-	v1 "github.com/gozilla-dev/chi-router/_examples/versions/presenter/v1"
-	v2 "github.com/gozilla-dev/chi-router/_examples/versions/presenter/v2"
-	v3 "github.com/gozilla-dev/chi-router/_examples/versions/presenter/v3"
-	"github.com/gozilla-dev/chi-router/middleware"
+	"github.com/dgate-io/chi-router"
+	"github.com/dgate-io/chi-router/_examples/versions/data"
+	v1 "github.com/dgate-io/chi-router/_examples/versions/presenter/v1"
+	v2 "github.com/dgate-io/chi-router/_examples/versions/presenter/v2"
+	v3 "github.com/dgate-io/chi-router/_examples/versions/presenter/v3"
+	"github.com/dgate-io/chi-router/middleware"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gozilla-dev/chi-router/_examples/versions/data"
+	"github.com/dgate-io/chi-router/_examples/versions/data"
 )
 
 // Article presented in API version 2.

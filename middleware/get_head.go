@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/gozilla-dev/chi-router"
+	"github.com/dgate-io/chi-router"
 )
 
 // GetHead automatically route undefined HEAD requests to GET handlers.
